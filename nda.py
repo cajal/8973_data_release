@@ -228,7 +228,7 @@ class Treadmill(dj.Manual):
         
 ## TODO: change to ScanTimes
 @schema
-class FrameTimes(dj.Manual):
+class ScanTimes(dj.Manual):
     """
     Class methods not available outside of BCM pipeline environment
     """
